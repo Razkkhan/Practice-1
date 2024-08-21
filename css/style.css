@@ -13,7 +13,6 @@ body {
 
 .image-section {
     position: relative;
-    max-width: 800px;
     height: auto;
     display: flex;
     justify-content: center;
@@ -24,17 +23,15 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    filter: brightness(0.2);
 }
 
 .overlay-text {
     position: absolute;
-    top: 220px;
+    top: 200px;
     left: 50%;
     transform: translate(-50%, 0);
     text-align: center;
     color: white;
-    z-index: 2;
 }
 
 .small-text {
@@ -86,4 +83,49 @@ body {
     width: 100%;
     height: auto;
     max-width: 600px;
+}
+
+/* welcome to mid night party */
+.banner {
+    background-image: url(../image/Vectorrr-3.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: auto;
+    width: 100%;
+    max-width: 1140px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #fd6e0a;
+    border: 0px;
+    color: black;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.banner-content {
+    max-width: 800px;
+    color: white;
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-Dis {
+    font-size: 15px;
+    margin-bottom: 35px;
 }
