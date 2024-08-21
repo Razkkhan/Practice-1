@@ -24,15 +24,17 @@ body {
     width: 100%;
     height: auto;
     display: block;
+    filter: brightness(0.2);
 }
 
 .overlay-text {
     position: absolute;
-    top: 200px;
+    top: 220px;
     left: 50%;
     transform: translate(-50%, 0);
     text-align: center;
     color: white;
+    z-index: 2;
 }
 
 .small-text {
@@ -49,3 +51,39 @@ body {
 }
 
 /* All Categories */
+.promo-section {
+    width: 80%;
+    max-width: 1200px;
+    padding: 80px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+.promo-content {
+    position: relative;
+}
+
+.discount-text {
+    font-size: 62px;
+    color: red;
+    margin: 0;
+}
+
+.holiday-deals {
+    font-size: 24px;
+    margin: 10px 0 20px;
+    color: red;
+}
+
+.categories-heading {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.promo-image {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
