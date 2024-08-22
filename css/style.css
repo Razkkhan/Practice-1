@@ -107,7 +107,7 @@ body {
     background: #fd6e0a;
     border: 0px;
     color: black;
-    padding: 15px 35px;
+    padding: 10px 25px;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -128,4 +128,128 @@ body {
 .banner-Dis {
     font-size: 15px;
     margin-bottom: 35px;
+}
+
+/* Park Hotel */
+.park {
+    background: linear-gradient(to bottom, #ffcccc, #ffe6e6);
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 30px;
+    position: relative;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.new-park {
+    margin-bottom: 20px;
+}
+
+.park-title {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.park-primary {
+    color: red;
+}
+
+.btn-primary:hover {
+    background-color: rgb(51, 141, 10);
+}
+
+/* offer section */
+.offer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 1320px;
+    /* Set width to 1320px */
+    height: 463px;
+    /* Set height to 463px */
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+}
+
+.offer-left {
+    width: 30%;
+    padding-left: 90px;
+
+}
+
+.offer-center {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 400px;
+    /* Decrease the total diameter to reduce the border width */
+    height: 400px;
+    border-radius: 50%;
+    background-color: red;
+    /* Outer circle color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle {
+    width: 364px;
+    /* Size of the white inner circle */
+    height: 364px;
+    border-radius: 50%;
+    background-color: white;
+    /* Inner circle color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-img {
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.twenty {
+    color: red;
+
+}
+
+.one {
+    font-size: 20px;
+}
+
+.two {
+    font-size: 40px;
+}
+
+.three {
+    color: #474747;
+}
+
+.offer-right {
+    width: 30%;
+    text-align: left;
+    padding-left: 120px;
+}
+
+.offer-right h4 {
+    margin-bottom: 10px;
+}
+
+.logo-img {
+    width: 140px;
+    height: 140px;
+    margin-top: 10px;
 }
