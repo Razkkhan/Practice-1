@@ -350,3 +350,109 @@ body {
     height: auto;
     top: auto;
 }
+
+.portfolio-container {
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.portfolio-text-content h5 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 4px;
+
+}
+
+.portfolio-text-content h2 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+
+.portfolio-text-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    margin-bottom: 30px;
+
+}
+
+.item {
+    width: 424px;
+    height: 450px;
+
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.content-section {
+    background-color: #FFD6D6;
+    text-align: center;
+    width: 1320px;
+    height: 516px;
+    margin: 0 auto;
+}
+
+.centered-img {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.content-section h2 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.content-section p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.email-form {
+    margin-top: 50px;
+    width: 648px;
+    height: 72px;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.email-form input {
+    margin-top: 30px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscribe-btn {
+    background-color: #df1c1c;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #b19724;
+}
